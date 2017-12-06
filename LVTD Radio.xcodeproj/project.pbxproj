@@ -1,0 +1,165 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE98440A1FD893A0001CB3EF /* LVTD_Radio.metal in Sources */ = {isa = PBXBuildFile; fileRef = CE9844091FD893A0001CB3EF /* LVTD_Radio.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE9844061FD893A0001CB3EF /* LVTD Radio.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = "LVTD Radio.metallib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9844091FD893A0001CB3EF /* LVTD_Radio.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = LVTD_Radio.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		CE9843FF1FD8939F001CB3EF = {
+			isa = PBXGroup;
+			children = (
+				CE9844081FD893A0001CB3EF /* LVTD Radio */,
+				CE9844071FD893A0001CB3EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9844071FD893A0001CB3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9844061FD893A0001CB3EF /* LVTD Radio.metallib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9844081FD893A0001CB3EF /* LVTD Radio */ = {
+			isa = PBXGroup;
+			children = (
+				CE9844091FD893A0001CB3EF /* LVTD_Radio.metal */,
+			);
+			path = "LVTD Radio";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9844051FD893A0001CB3EF /* LVTD Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE98440D1FD893A0001CB3EF /* Build configuration list for PBXNativeTarget "LVTD Radio" */;
+			buildPhases = (
+				CE9844041FD893A0001CB3EF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LVTD Radio";
+			productName = "LVTD Radio";
+			productReference = CE9844061FD893A0001CB3EF /* LVTD Radio.metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9844001FD8939F001CB3EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Elevated Media House";
+				TargetAttributes = {
+					CE9844051FD893A0001CB3EF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE9844031FD8939F001CB3EF /* Build configuration list for PBXProject "LVTD Radio" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE9843FF1FD8939F001CB3EF;
+			productRefGroup = CE9844071FD893A0001CB3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9844051FD893A0001CB3EF /* LVTD Radio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9844041FD893A0001CB3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE98440A1FD893A0001CB3EF /* LVTD_Radio.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE98440B1FD893A0001CB3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE98440C1FD893A0001CB3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE98440E1FD893A0001CB3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KNW9HKP33;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE98440F1FD893A0001CB3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KNW9HKP33;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9844031FD8939F001CB3EF /* Build configuration list for PBXProject "LVTD Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE98440B1FD893A0001CB3EF /* Debug */,
+				CE98440C1FD893A0001CB3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE98440D1FD893A0001CB3EF /* Build configuration list for PBXNativeTarget "LVTD Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE98440E1FD893A0001CB3EF /* Debug */,
+				CE98440F1FD893A0001CB3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9844001FD8939F001CB3EF /* Project object */;
+}
